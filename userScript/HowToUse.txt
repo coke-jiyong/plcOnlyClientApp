@@ -1,0 +1,37 @@
+
+
+
+
+!Root privilege required!
+
+[ GetSerial.sh ]
+Note - If you give us serial number, We will create a license file for you.
+Usage : sh GetSerial.sh
+
+
+
+[ change-ip.sh ]
+Note - Please enter the address of the OTAC authentication server
+Usage : sh change-ip.sh <server_ip_address>
+ex) sh change-ip.sh 192.168.1.10
+
+
+
+[ register-license.sh ]
+Note - 1. Upload the license file.
+       2. Enter the path of the uploaded license file for register-license.sh.
+Usage : sh register-license.sh <path_of_the_uploaded_license_file>
+ex) sh register-license.sh /opt/plcnext/swidchauthclient.lic
+
+
+Note - If you've finished all the script, please reboot for application.
+Reboot Command - /etc/init.d/plcnext restart
+
+
+
+[ GetVersion.sh ]
+Note - Return version of the this application.
+Usage : sh GetVersion.sh
+
+
+
